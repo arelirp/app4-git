@@ -1,0 +1,336 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>Contaminación Ambiental </title>
+
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/temas-app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!---- <script src="js/acciones.js"></script>-->
+<script src="phonegap.js"> </script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/barranca.jpg','imagenes/recicla2.jpg','imagenes/quemas.jpg','imagenes/suelo.JPG')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Contaminación ambiental en mi comunidad </h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminación</h1>
+  <div>
+    <p>Barrancas</p>
+    <br>
+   </div>
+   <div>
+     <img src="imagenes/barranca.JPG" width="50%" height="50%">
+   </div>
+  </div>
+ </div>
+ <div>
+
+
+
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminación en mi comunidad</h1>
+  <div>
+    <p>Terrenos baldios</p>
+    <br>
+   </div>
+   <div>
+     <img src="imagenes/suelo.JPG" width="50%" height="50%">     
+   </div>
+  </div>
+ </div>
+ <div>
+ </div>
+ <div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class ="ui-first-child ui-last-child">
+<a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Definición </h2>
+<p> ¿Que es la contaminación?</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tipos de Contaminación </h2>
+<p>Se muestran los tipos de contaminación que existen </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Consecuencias  </h2>
+<p>Demostración de las consecuencias con enfoque al calentamiento global </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Reciclaje </h2>
+<p> ¿Que es y como se clasifica el reciclaje?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Medidas para combatir la contaminación </h2>
+<p> Se muestran las medidas para combatirlas</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+<div>
+  <h4>Apliacacion Cuatro ARP</h4>
+  <h4>Areli Rojas Pérez</h4>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="page1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> Definición </h1>
+</div>
+<div data-role="content" align="center">
+ <div>
+  <h2>La Contaminación se denomina a la presencia en el ambiente de cualquier agente químico, físico o biológico nocivos para la salud o el bienestar de la población, de la vida animal o vegetal.
+
+Esta degradación del medio ambiente por un contaminante externo puede provocar daños en la vida cotidiana del ser humano y alterar las condiciones de supervivencia de la flora y la fauna.
+
+Alrededor de 2 millones de personas podrían morir cada año por alguna causa atribuible a la contaminación atmosférica, asegura la Organización Mundial de la Salud. Según este estudio la mayor cantidad de muertes se producen en los países en desarrollo donde se concentran  altas densidades de partículas nocivas para la salud.
+
+<p>La población humana crece según una progresión geométrica y la demanda de alimentos y necesidades básicas para la vida del hombre son cada vez mayores. El aumento en el consumo de diversos productos y desechos, provocados por  el ser humano, trae como consecuencia la generación de sustancias tóxicas.
+
+Este desarrollo indiscriminado ha alterado la Tierra:</p>
+
+<p>•Regiones enteras en zonas tropicales han sufrido la desertificación</p>
+<p>•Extinción de especies animales y vegetales</p>
+<p>•Graves inundaciones que arruinan cada año las cosechas de las zonas más pobres del planeta.</p></h2>
+
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/acustica.jpg" alt="acustica" title="acustica" id="wows3_0"/></li>
+		<li><img src="data3/images/barranca.jpg" alt="barranca" title="barranca" id="wows3_1"/></li>
+		<li><img src="data3/images/contaminacion.jpg" alt="contaminacion" title="contaminacion" id="wows3_2"/></li>
+		<li><img src="data3/images/hidrica.jpg" alt="hidrica" title="hidrica" id="wows3_3"/></li>
+		<li><img src="data3/images/luminica.jpg" alt="luminica" title="luminica" id="wows3_4"/></li>
+		<li><img src="data3/images/mundo_sucio.jpg" alt="mundo_sucio" title="mundo_sucio" id="wows3_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data3/images/quemas.jpg" alt="bootstrap slider" title="quemas" id="wows3_6"/></a></li>
+		<li><img src="data3/images/radioactiva.jpg" alt="radioactiva" title="radioactiva" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="acustica"><span><img src="data3/tooltips/acustica.jpg" alt="acustica"/>1</span></a>
+		<a href="#" title="barranca"><span><img src="data3/tooltips/barranca.jpg" alt="barranca"/>2</span></a>
+		<a href="#" title="contaminacion"><span><img src="data3/tooltips/contaminacion.jpg" alt="contaminacion"/>3</span></a>
+		<a href="#" title="hidrica"><span><img src="data3/tooltips/hidrica.jpg" alt="hidrica"/>4</span></a>
+		<a href="#" title="luminica"><span><img src="data3/tooltips/luminica.jpg" alt="luminica"/>5</span></a>
+		<a href="#" title="mundo_sucio"><span><img src="data3/tooltips/mundo_sucio.jpg" alt="mundo_sucio"/>6</span></a>
+		<a href="#" title="quemas"><span><img src="data3/tooltips/quemas.jpg" alt="quemas"/>7</span></a>
+		<a href="#" title="radioactiva"><span><img src="data3/tooltips/radioactiva.jpg" alt="radioactiva"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+   </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+  <h4>Aplicacion Cuatro ARP </h4>
+ </div>
+</div>
+</div>
+
+
+<div data-role="page" id="page2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<H1> Tipos de Contaminación </H1>
+</div>
+<div data-role="content" align="center">
+  <div>
+  <h2> <p>•Contaminación atmosférica</p>
+       <img src="imagenes/quemas.JPG" width="60%" height="60%">
+
+       <p>•Contaminación hídrica</p>
+       <img src="imagenes/hidrica.JPG" width="60%" height="60%">
+
+       <p>•Contaminación del suelo y del subsuelo</p>
+       <img src="imagenes/suelo.JPG" width="60%" height="60%">
+
+       <p>•Contaminación radiactiva</p>
+       <img src="imagenes/radioactiva.JPG" width="60%" height="60%">
+
+       <p>•Contaminación térmica</p>
+       <img src="imagenes/termica.JPG" width="60%" height="60%">
+
+       <p>•Contaminación visual</p>
+       <img src="imagenes/visual.JPG" width="60%" height="60%">
+
+       <p>•Contaminación lumínica</p>
+       <img src="imagenes/luminica.JPG" width="60%" height="60%">
+        
+       <p>•Contaminación acústica</p> 
+       <img src="imagenes/acustica.JPG" width="60%" height="60%"> </h2>
+  </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+  <h4> Aplicacion Cuatro ARP</h4>
+ </div>
+</div>
+
+
+<div data-role="page" id="page3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> Consecuencias  </h1>
+</div>
+<div data-role="content" align="center">
+ <div>
+   <h2> 1. Temperaturas más cálidas
+<p>La acumulación de gases contaminantes hace que las temperaturas aumenten cada vez más</p>
+        2. Tormentas más intensas
+<p>El hecho de que las temperaturas sean más altas hace que las lluvias sean menos frecuentes, pero que sean más intensas; por tanto, el nivel de inundaciones y su gravedad también irán en aumento.</p> 
+       3. Propagación de enfermedades
+<p>Un cambio de temperatura de varios grados puede hacer que la zona templada se haga más acogedora a la propagación de determinadas enfermedades.</p>
+        4. Olas de calor más fuertes
+<p>El calentamiento global del planeta producido por la quema acelerada de combustibles fósiles agotables ha sido muy intenso en el Polo Norte. Esto hace que el Polo Norte esté hoy mucho más caliente que hace cincuenta años.</p>
+        5. Derretimiento de los glaciares
+<p>Océanos con temperaturas más altas son océanos que derriten el hielo de los casquetes polares: esto significa que aumenta el nivel del mar.</p> </h2>
+
+
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/suelo.JPG',1)"><img src="imagenes/hidrica.JPG" width="70%" height="70%" id="Image23"></a> </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+  <h4>Aplicacion Cuatro ARP </h4>
+ </div>
+</div>
+</div>
+
+
+<div data-role="page" id="page4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> Reciclaje </h1>
+</div>
+<div data-role="content" align="center">
+ <div>
+  <h2> <p>1.Regla de las 3r: reducir</p>
+       <p>Cuando hablamos de reducir lo que estamos diciendo es que se debe tratar de reducir o simplificar el consumo de los productos directos, o sea, todo aquello que se compra y se consume, ya que esto tiene una relación directa con los desperdicios, a la vez que también la tiene con nuestro bolsillo. Por ejemplo, en vez de comprar 6 botellas pequeñas de una bebida, se puede conseguir una o dos grandes, teniendo el mismo producto pero menos envases sobre los que preocuparse.</p>
+         <img src="imagenes/reduce.JPG" width="60%" height="60%">
+
+       <p>2.Regla de las 3r: reutilizar</p>
+       <p>Al decir reutilizar, nos estamos refiriendo a poder volver a utilizar las cosas y darles la mayor utilidad posible antes de que llegue la hora de deshacernos de ellas, dado que al disminuir el volumen de la basura.
+          Esta tarea suele ser la que menos atención recibe y es una de las mas importantes, que también ayuda mucho la economía en casa.</p>
+       
+       
+       <img src="imagenes/reutiliza.JPG" width="60%" height="60%">
+  
+       <p>3.Regla de las 3r: reciclar</p>
+       <p>La ultima de las tareas es la de reciclar, que consiste en el proceso de someter los materiales a un proceso en el cual se puedan volver a utilizar, reduciendo de forma verdaderamente significativa la utilización de nuevos materiales, y con ello, mas basura en un futuro.</p>
+      
+   <img src="imagenes/reciclar.JPG" width="60%" height="60%"></h2>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+  <h4>Aplicacion Cuatro ARP </h4>
+ </div>
+</div>
+</div>
+  </div>
+  
+
+
+
+<div data-role="page" id="page5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> Medidas para combatirlas  </h1>
+</div>
+<div data-role="content" align="center">
+ <div>
+  <h2> <p>•Poner carteles que digan que se multara a quien se vea tirando basura en las barrancas</p>
+  <img src="imagenes/quemas.jpg" width="60%" height="60%">
+  
+       <p>•Regular el servicio de aseo urbano</p>
+        <img src="imagenes/barranca.jpg" width="60%" height="60%"></h2>
+        
+       <p>•Colocar la basura en los lugares apropiados</p>
+       <img src="imagenes/hidrica.JPG" width="60%" height="60%"></h2>
+       
+       <p>•Realizar campañas de apoyo</p>
+       <img src="imagenes/suelo.JPG"width="60%" height="60%"></h2>
+       
+       <p>•Controlar el uso de fertilizantes y pesticidas</p>
+
+</h2>
+ 
+  
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/barranca.jpg',1)"><img src="imagenes/mundo_sucio.jpg" width="70%" height="70%" id="Image22"></a> </div>
+  
+  </div>
+ 
+  
+  
+  <a href="https://www.renovablesverdes.com/contaminacion-atmosferica/" target="_self"/> Más Información</a>
+  
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/tierra.PNG" width="46" height="46">
+</div>
+  <h4>Aplicacion Cuatro ARP </h4>
+ </div>
+</div>
+
+
+</body>
+</html>
